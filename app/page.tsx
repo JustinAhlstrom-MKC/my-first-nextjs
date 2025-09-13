@@ -7,6 +7,9 @@ export default function Home() {
       <p className="text-xl text-gray-600">
         I edited this in nano!
       </p>
+      <p className="text-sm mt-4">
+        Updated from the terminal at {new Date().toLocaleTimeString()}
+      </p>
     </main>
   )
 }
